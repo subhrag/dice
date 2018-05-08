@@ -1,0 +1,38 @@
+.aside-left {
+    width: 48%;
+    margin: 1%;
+}
+
+.dices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dice-1 {
+    height: $size;
+    // height: 100%;
+    width: $size;
+    background-color: red;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#dice-2 {
+    height: $size;
+    //height: 100%;
+    width: $size;
+    background-color: green;
+    border-radius: 10px;
+    margin: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#score1,
+#score2 {
+    text-align: end;
+    padding-right: 20vw;
+}

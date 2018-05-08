@@ -1,0 +1,17 @@
+.aside-right {
+    width: 48%;
+    margin: 1%;
+}
+
+.players {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    border-radius: 5px;
+    padding: 4px 24px;
+    margin: 20px 10px;
+    background-color: gold;
+}

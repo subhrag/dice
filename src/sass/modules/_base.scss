@@ -1,0 +1,15 @@
+.main-section {
+    width: 100%;
+    width: 80%;
+    height: 220px;
+    margin: 10%;
+    // max-width: 960px;
+    //margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgba(67, 67, 67, 0.5);
+}
+
+.gameboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dice</title>
+</head>
+
+<body>
+    <section class="main-section">
+        <div class="gameboard">
+            <aside class="aside-left">
+                <div class="dices">
+                    <div class="dice" id="dice-1"></div>
+                    <div class="dice" id="dice-2"></div>
+                </div>
+                <div class="players">
+                    <button id="playerId1" class="player">Player 1</button>
+                    <button id="playerId2" class="player">Player 2</button>
+                </div>
+            </aside>
+            <aside class="aside-right">
+                <div>
+                    <p>Player 1 Score Now:</p>
+                    <div id="score1"></div>
+                </div>
+                <div>
+                    <p>Player 2 Score Now:</p>
+                    <div id="score2"></div>
+                </div>
+            </aside>
+        </div>
+        <div class="winnerModal" id="winnerModal">
+            <div class="winnerModal__content">
+                <span class="close">&times;</span>
+                <p class="winnerModal__content--paragraph" id="winnerModal__content--paragraph"></p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
